@@ -20,5 +20,9 @@ public class NewSessionBean implements NewSessionBeanRemote {
         return "Hello World";
     }
 
+  @Override
+  public String test2() {
+    return "Hello Wonderfull World";
+  }
     
 }

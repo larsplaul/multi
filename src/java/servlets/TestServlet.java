@@ -47,6 +47,7 @@ public class TestServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>" + newSessionBean.test() + "</h1>");
+            out.println("<h1>" + newSessionBean.test2() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }

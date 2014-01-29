@@ -16,5 +16,7 @@ import javax.ejb.Remote;
 public interface NewSessionBeanRemote {
 
     String test();
+
+  String test2();
     
 }
